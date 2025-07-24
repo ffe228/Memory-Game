@@ -1,0 +1,14 @@
+.playground {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+  gap: 2rem; /* Отступ между карточками */
+  padding: 2rem;
+}
+.restart-button {
+  display: flex;
+  justify-content: center;
+}
+.winner-message {
+  color: green;
+  font-size: 5rem;
+}
